@@ -1,0 +1,16 @@
+# uv tool install prek
+# prek install
+# prek run
+default_language_version:
+  python: python3.12
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.6.3
+    hooks:
+      - id: ruff-format
+      - id: ruff
+        args: [--fix]
+  - repo: https://github.com/RobertCraigie/pyright-python
+    rev: v1.1.407
+    hooks:
+      - id: pyright
