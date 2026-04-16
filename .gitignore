@@ -11,3 +11,5 @@ wheels/
 
 # Local scratch files created by the mock server flows (mock:read/mock:edit).
 .nanocli_mock/
+
+docs/
